@@ -1,0 +1,1 @@
+﻿dotnet ef migrations -s ..\..\Elysio.Blazor.Server\ add Creation -c MyDbContext --verbose

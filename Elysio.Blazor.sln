@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elysio.Blazor.Server", "Ely
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elysio.Blazor.App", "Elysio.Blazor.App\Elysio.Blazor.App.csproj", "{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Librairies", "Librairies", "{1AF1F6E0-02BD-4F52-A379-3BA3F7D2CC26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elysio.Blazor.Data", "Librairies\Elysio.Blazor.Data\Elysio.Blazor.Data.csproj", "{A850A20F-41FD-4AA1-8216-D51BA29C8E38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elysio.Blazor.DTOs", "Librairies\Elysio.Blazor.DTOs\Elysio.Blazor.DTOs.csproj", "{BB0B929D-FBDA-4645-BEE9-E27A7FEFC72D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elysio.Blazor.Services", "Librairies\Elysio.Blazor.Services\Elysio.Blazor.Services.csproj", "{8AAC66C0-9027-4BEB-B60D-8F6F9481AB11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +29,26 @@ Global
 		{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A850A20F-41FD-4AA1-8216-D51BA29C8E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A850A20F-41FD-4AA1-8216-D51BA29C8E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A850A20F-41FD-4AA1-8216-D51BA29C8E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A850A20F-41FD-4AA1-8216-D51BA29C8E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0B929D-FBDA-4645-BEE9-E27A7FEFC72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0B929D-FBDA-4645-BEE9-E27A7FEFC72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0B929D-FBDA-4645-BEE9-E27A7FEFC72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0B929D-FBDA-4645-BEE9-E27A7FEFC72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAC66C0-9027-4BEB-B60D-8F6F9481AB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAC66C0-9027-4BEB-B60D-8F6F9481AB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAC66C0-9027-4BEB-B60D-8F6F9481AB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAC66C0-9027-4BEB-B60D-8F6F9481AB11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A850A20F-41FD-4AA1-8216-D51BA29C8E38} = {1AF1F6E0-02BD-4F52-A379-3BA3F7D2CC26}
+		{BB0B929D-FBDA-4645-BEE9-E27A7FEFC72D} = {1AF1F6E0-02BD-4F52-A379-3BA3F7D2CC26}
+		{8AAC66C0-9027-4BEB-B60D-8F6F9481AB11} = {1AF1F6E0-02BD-4F52-A379-3BA3F7D2CC26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {046E77FD-4F27-4CD9-BF0D-033CCF1BEB1F}
