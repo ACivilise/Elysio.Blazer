@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elysio.Blazor.Server", "Elysio.Blazor.Server\Elysio.Blazor.Server.csproj", "{ADAAAAC0-9542-4EBF-B813-1AB888342520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elysio.Blazor.App", "Elysio.Blazor.App\Elysio.Blazor.App.csproj", "{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADAAAAC0-9542-4EBF-B813-1AB888342520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAAAAC0-9542-4EBF-B813-1AB888342520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAAAAC0-9542-4EBF-B813-1AB888342520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAAAAC0-9542-4EBF-B813-1AB888342520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2A4159-9691-4961-BBE2-D65DF7A92D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {046E77FD-4F27-4CD9-BF0D-033CCF1BEB1F}
+	EndGlobalSection
+EndGlobal
